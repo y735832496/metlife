@@ -2,10 +2,13 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link crossorigin="anonymous" media="all" integrity="sha512-/YEVWs7BzxfKyUd6zVxjEQcXRWsLbcEjv045Rq8DSoipySmQblhVKxlXLva2GtNd5DhwCxHwW1RM0N9I7S2Vew==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-481a47a96965f6706fb41bae0d14b09a.css">
     <link crossorigin="anonymous" media="all" integrity="sha512-RXdXt6Q4qNvuDQUlIk7pw4KmlGww82Vb7+0z5MzpLjpzQ5WiUsOS0h81uZJxTfnORfoabCtEOONW0oUUfpUhEg==" rel="stylesheet" href="https://github.githubassets.com/assets/github-668a54bc74d3ac1d18320f010377642b.css">
     <meta name="viewport" content="width=device-width">
     <title>MetLife智慧应用系统数据中央监控平台</title>
+
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <meta property="fb:app_id" content="1401488693436528">
@@ -14,7 +17,7 @@
     <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDU3NDg4MTk1OmMxMzgxNWFiM2M1Y2Y3NDBiNDM4YzgxZjVlNmIwMmU5MWY2M2UyYTg0ZTUwNDQ4Mjk2NjY1MDhiMGRkMjkwYzY=--7cc58ea126f671f9b3a2d80a3dd7fdc22f00d34b">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
     <meta http-equiv="x-pjax-version" content="f69d3cb88b705156fe02a6cd48e51e8d">
-  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573034344399&di=677f6d3c578be25034c3e92d2b6e0abd&imgtype=0&src=http%3A%2F%2Fcdn-img.easylogo.cn%2Fgif%2F91%2F91366.gif">
+    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573034344399&di=677f6d3c578be25034c3e92d2b6e0abd&imgtype=0&src=http%3A%2F%2Fcdn-img.easylogo.cn%2Fgif%2F91%2F91366.gif">
     <meta name="theme-color" content="#1e2327">
     <meta name="webauthn-auth-enabled" content="true">
     <meta name="webauthn-registration-enabled" content="true">
@@ -24,27 +27,13 @@
     <header class="Header js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
         <div class="Header-item Header-item--full flex-column flex-lg-row width-full flex-order-2 flex-lg-order-none mr-0 mr-lg-3 mt-3 mt-lg-0 Details-content--hidden">
             <nav class="d-flex flex-column flex-lg-row flex-self-stretch flex-lg-self-auto" aria-label="Global">
-                <a class="Header-link d-block d-lg-none py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:dashboard:user" aria-label="Dashboard" href="">
-                    Dashboard
-                </a>
-                <a class="js-selected-navigation-item Header-link  mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15" data-hotkey="g p" data-ga-click="Header, click, Nav menu - item:pulls context:user" aria-label="Pull requests you created" data-selected-links="/main" href="">首页</a>
-                <a class="js-selected-navigation-item Header-link  mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15" data-hotkey="g i" data-ga-click="Header, click, Nav menu - item:issues context:user" aria-label="Issues you created" data-selected-links="/logs" href="">日志详情</a>
-                <div class="mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15">
-                    <a class="js-selected-navigation-item Header-link" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-octo-click="marketplace_click" data-octo-dimensions="location:nav_bar" data-selected-links=" /details" href="">系统详情</a>
+                <h3>MetLife智慧应用系统数据中央监控平台</h3>
 
-                </div>
-
-                <a class="js-selected-navigation-item Header-link  mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/health" href="">健康度详情</a>
-
-                <a class="js-selected-navigation-item Header-link  mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/alert" href="">告警信息详情</a>
-
-                <!-- '"` --><!-- </textarea></xmp> --><form action="" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="rzRxOv8IcsTlcukd/UjN3he+2mK0b9UEO5oohhP/zfvu41TPJCorWshlQl4o5UB3V/3QEY5DUgqc2K88iJbwmg==">
                 <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
                     <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M 0 0 L 5 5 L 0 10 z"></path></svg>
                     Sign out
                 </button>
-            </form></nav>
-
+            </nav>
         </div>
         <div class="Header-item mr-0 mr-lg-3 flex-order-1 flex-lg-order-none">
             <a aria-label="登出" class="Header-link notification-indicator position-relative tooltipped tooltipped-sw js-socket-channel js-notification-indicator" data-hotkey="g n" data-ga-click="Header, go to notifications, icon:read" data-channel="notification-changed:35420156" href="">
@@ -57,97 +46,347 @@
 <div class="application-main " data-commit-hovercards-enabled="">
     <main id="js-pjax-container" data-pjax-container="">
         <div class="container-xl clearfix px-3 mt-4">
-            <div>
-                <nav class="UnderlineNav-body" data-pjax="" aria-label="User profile">
-                    <a aria-current="page" class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 selected " data-hydro-click="{" data-hydro-click-hmac="7656070599623e5569eeef19e700f57fdc4fa1c24566bb73070a40532bc64a18" href="">总览</a>
-                    <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 "  href="">imap渠道销售系统</a>
-                    <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 "  href="">电子邮箱系统</a>
-                    <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 "  href="">打印平台</a>
-                    <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 "  href="">filenet影像系统</a>
-                    <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 "  href="">MTS系统</a>
-                    <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 "  href="">wechat系统</a>
-                    <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 "  href="">PASS系统</a>
-                    <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 "  href="">enotice系统</a>
-                    <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 "  href="">CDR</a>
-                    <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 "  href="">BO报表</a>
-                    <a class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 "  href="">ODS</a>
-                </nav>
+            <div class="Subhead">
+                <h2 class="Subhead-heading">AMS China - Key Business Area</h2>
             </div>
-                <div class="position-relative">
-                    <div class="mt-4">
-                        <div class="js-pinned-items-reorder-container">
-                            <ol class="d-flex flex-wrap list-style-none gutter-condensed mb-4">
-                                <li class="col-12 col-md-6 col-lg-6 mb-3 d-flex flex-content-stretch">
-                                    <div class="Box pinned-item-list-item d-flex p-3 width-full public source">
-                                        <div class="pinned-item-list-item-content">
-                                            <div class="d-flex width-full flex-items-center position-relative">
-                                                <a href="" class="text-bold flex-auto">
-                                                    <span class="repo" title="Steven-s-Project">日志监控</span>
-                                                </a>
+            <div class="position-relative">
+                <div class="mt-4">
+                    <div class="js-pinned-items-reorder-container">
+                        <ol class="d-flex flex-wrap list-style-none gutter-condensed mb-4">
+                            <li class="col-12 col-md-6 col-lg-2 mb-3 d-flex flex-content-stretch">
+                                <div class="Box pinned-item-list-item d-flex p-3 width-full public source">
+                                    <div class="pinned-item-list-item-content">
+                                        <div class="d-flex width-full flex-items-center position-relative" align="center">
+                                            <a href="" class="text-bold flex-auto">
+                                                <span class="repo" title="" align="center"><h3 style="font-family:微软雅黑">审计</h3></span>
+                                            </a>
+                                        </div>
+
+                                        <div class="pinned-item-list-item-content" style="display: inline;margin-top: 10px" align="center">
+
+                                            <div style="width:99% ; float:left   ">
+                                                <button name="button" style="width:120px ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                                    <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button>
                                             </div>
-                                            <p class="pinned-item-desc text-gray text-small d-block mt-2 mb-3">
-                                                错误日志占比：0.00%              <span class="d-inline-block mr-3" style="margin-left: 50px">
-  <span class="repo-language-color" style="background-color: #00db00"></span>
-  <span itemprop="programmingLanguage">正常</span>
-                                            </span></p>
+                                        </div></div>
+                                </div>
+                            </li>
+                            <li class="col-12 col-md-6 col-lg-2 mb-3 d-flex flex-content-stretch">
+                                <div class="Box pinned-item-list-item d-flex p-3 width-full public source">
+                                    <div class="pinned-item-list-item-content">
+                                        <div class="d-flex width-full flex-items-center position-relative" align="center">
+                                            <a href="" class="text-bold flex-auto">
+                                                <span class="repo" title="MyTest"><h3 style="font-family:微软雅黑">IT 支持</h3></span>
+                                            </a>
+                                        </div>
+
+
+                                        <div class="pinned-item-list-item-content" style="display: inline;margin-top: 10px" align="center">
+
+                                            <div style="width:99% ; float:left   ">
+                                                <button name="button" style="width:120px ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                                    <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button>
+                                            </div>
+                                        </div></div>
+                                </div>
+                            </li>
+                            <li class="col-12 col-md-6 col-lg-3 mb-3 d-flex flex-content-stretch">
+                                <div class="Box pinned-item-list-item d-flex p-3 width-full public fork">
+                                    <div class="pinned-item-list-item-content">
+                                        <div class="d-flex width-full flex-items-center position-relative" align="center">
+                                            <a href="" class="text-bold flex-auto">
+                                                <span class="repo" title="coding-interview-university"><h3 style="font-family:微软雅黑">代理人管理</h3></span>
+                                            </a>
+                                        </div>
+                                        <div class="pinned-item-list-item-content" style="display: inline;margin-top: 10px" align="center">
+                                            <div style="width:49.9% ; float:left   ">
+                                                <button name="button" style="width:120px ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                                    <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button>
+                                            </div>
+                                            <div style="width:49.9% ; float:left   ">
+                                                <button name="button" style="width:120px ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                                    <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button>
+                                            </div>
                                         </div>
                                     </div>
-                                </li>
-                                <li class="col-12 col-md-6 col-lg-6 mb-3 d-flex flex-content-stretch">
-                                    <div class="Box pinned-item-list-item d-flex p-3 width-full public source">
-                                        <div class="pinned-item-list-item-content">
-                                            <div class="d-flex width-full flex-items-center position-relative">
-                                                <a href="" class="text-bold flex-auto">
-                                                    <span class="repo" title="MyTest">系统监控</span>
-                                                </a>
-                                            </div>
-                                            <p class="pinned-item-desc text-gray text-small d-block mt-2 mb-3">
-                                                应用性能：良好             <span class="d-inline-block mr-3" style="margin-left: 50px">
-  <span class="repo-language-color" style="background-color: #00db00"></span>
-  <span itemprop="programmingLanguage">正常</span>
-                                            </span></p>
-                                            <p></p>
+                                </div>
+                            </li>
+                            <li class="col-12 col-md-6 col-lg-5 mb-3 d-flex flex-content-stretch">
+                                <div class="Box pinned-item-list-item d-flex p-3 width-full public source">
+                                    <div class="pinned-item-list-item-content">
+                                        <div class="d-flex width-full flex-items-center position-relative" align="center">
+                                            <a href="" class="text-bold flex-auto">
+                                                <span class="repo" title="zh-private-project"><h3 style="font-family:微软雅黑">保单管理</h3></span>
+                                            </a>
                                         </div>
-                                    </div>
-                                </li>
-                                <li class="col-12 col-md-6 col-lg-6 mb-3 d-flex flex-content-stretch">
-                                    <div class="Box pinned-item-list-item d-flex p-3 width-full public fork">
-                                        <div class="pinned-item-list-item-content">
-                                            <div class="d-flex width-full flex-items-center position-relative">
-                                                <a href="" class="text-bold flex-auto">
-                                                    <span class="repo" title="coding-interview-university">健康度监控</span>
-                                                </a>
-                                            </div>
-                                            <p class="pinned-item-desc text-gray text-small d-block mt-2 mb-3">
-                                                接口响应：良好             <span class="d-inline-block mr-3" style="margin-left: 50px">
-  <span class="repo-language-color" style="background-color: #00db00"></span>
-  <span itemprop="programmingLanguage">正常</span>
-                                            </span></p>
+
+                                        <div class="pinned-item-list-item-content" style="display: inline;margin-top: 10px" align="center">
+
+                                            <div style="width:99% ; float:left   ">
+
+                                                <button name="button" style="width:22% ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                                    <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button><button name="button" style="width:22% ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                                <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button><button name="button" style="width:22% ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                                <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button><button name="button" style="width:22% ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                                <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button></div>
+                                        </div></div>
+                                </div>
+                            </li>
+                            <li class="col-12 col-md-6 col-lg-4 mb-3 d-flex flex-content-stretch">
+                                <div class="Box pinned-item-list-item d-flex p-3 width-full public source">
+                                    <div class="pinned-item-list-item-content">
+                                        <div class="d-flex width-full flex-items-center position-relative" align="center">
+                                            <a href="" class="text-bold flex-auto">
+                                                <span class="repo" title="Steven-s-Project"><h3 style="font-family:微软雅黑">短信邮件</h3></span>
+                                            </a>
                                         </div>
-                                    </div>
-                                </li>
-                                <li class="col-12 col-md-6 col-lg-6 mb-3 d-flex flex-content-stretch">
-                                    <div class="Box pinned-item-list-item d-flex p-3 width-full public source">
-                                        <div class="pinned-item-list-item-content">
-                                            <div class="d-flex width-full flex-items-center position-relative">
-                                                <a href="" class="text-bold flex-auto">
-                                                    <span class="repo" title="zh-private-project">告警信息</span>
-                                                </a>
+
+                                        <div class="pinned-item-list-item-content" style="display: inline;margin-top: 10px" align="center">
+                                            <div style="width:49.9% ; float:left   ">
+                                                <button name="button" style="width:120px ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                                    <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button>
                                             </div>
-                                            <p class="pinned-item-desc text-gray text-small d-block mt-2 mb-3">
-                                                您有0条告警信息
-                                            </p>
-                                        </div>
+                                            <div style="width:49.9% ; float:left   ">
+                                                <button name="button" style="width:120px ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                                    <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button>
+                                            </div>
+                                        </div></div>
+                                </div>
+                            </li><li class="col-12 col-md-6 col-lg-8 mb-3 d-flex flex-content-stretch">
+                            <div class="Box pinned-item-list-item d-flex p-3 width-full public source">
+                                <div class="pinned-item-list-item-content">
+                                    <div class="d-flex width-full flex-items-center position-relative" align="center">
+                                        <a href="" class="text-bold flex-auto">
+                                            <span class="repo" title="Steven-s-Project"><h3 style="font-family:微软雅黑">销售</h3></span>
+                                        </a>
                                     </div>
-                                </li>
-                            </ol>
-                        </div>
+
+                                    <div class="pinned-item-list-item-content" style="display: inline;margin-top: 10px" align="center">
+
+
+                                        <div style="width:16.65% ; float:left   ">
+                                            <button name="button" style="width:120px ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                                <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button>
+                                        </div><div style="width:16.65% ; float:left   ">
+                                        <button name="button" style="width:120px ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                            <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button>
+                                    </div><div style="width:16.65% ; float:left   ">
+                                        <button name="button" style="width:120px ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                            <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button>
+                                    </div><div style="width:16.65% ; float:left   ">
+                                        <button name="button" style="width:120px ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                            <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button>
+                                    </div><div style="width:16.65% ; float:left   ">
+                                        <button name="button" style="width:120px ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                            <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button>
+                                    </div><div style="width:16.65% ; float:left   ">
+                                        <button name="button" style="width:120px ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                            <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button>
+                                    </div></div></div>
+                            </div>
+                        </li><li class="col-12 col-md-6 col-lg-5 mb-3 d-flex flex-content-stretch">
+                            <div class="Box pinned-item-list-item d-flex p-3 width-full public source">
+                                <div class="pinned-item-list-item-content">
+                                    <div class="d-flex width-full flex-items-center position-relative" align="center">
+                                        <a href="" class="text-bold flex-auto">
+                                            <span class="repo" title="Steven-s-Project"><h3 style="font-family:微软雅黑">文档管理</h3></span>
+                                        </a>
+                                    </div>
+
+                                    <div class="pinned-item-list-item-content" style="display: inline;margin-top: 10px" align="center">
+                                        <div style="width:33% ; float:left   ">
+                                            <button name="button" style="width:119px ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                                <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button>
+                                        </div>
+                                        <div style="width:33% ; float:left   ">
+                                            <button name="button" style="width:120px ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                                <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button>
+                                        </div>
+                                        <div style="width:33% ; float:left   ">
+                                            <button name="button" style="width:120px ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                                <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button>
+                                        </div></div></div>
+                            </div>
+                        </li><li class="col-12 col-md-6 col-lg-7 mb-3 d-flex flex-content-stretch">
+                            <div class="Box pinned-item-list-item d-flex p-3 width-full public source">
+                                <div class="pinned-item-list-item-content">
+                                    <div class="d-flex width-full flex-items-center position-relative" align="center">
+                                        <a href="" class="text-bold flex-auto">
+                                            <span class="repo" title="Steven-s-Project"><h3 style="font-family:微软雅黑">数据仓库</h3></span>
+                                        </a>
+                                    </div>
+
+                                    <div class="pinned-item-list-item-content" style="display: inline;margin-top: 10px" align="center">
+
+
+                                        <div style="width:19.9% ; float:left   ">
+                                            <button name="button" style="width:120px ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                                <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button>
+                                        </div><div style="width:19.9% ; float:left   ">
+                                        <button name="button" style="width:120px ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                            <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button>
+                                    </div><div style="width:19.9% ; float:left   ">
+                                        <button name="button" style="width:120px ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                            <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button>
+                                    </div><div style="width:19.9% ; float:left   ">
+                                        <button name="button" style="width:120px ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                            <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button>
+                                    </div><div style="width:19.9% ; float:left   ">
+                                        <button name="button" style="width:120px ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                            <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button>
+                                    </div></div></div>
+                            </div>
+                        </li><li class="col-12 col-md-6 col-lg-6 mb-3 d-flex flex-content-stretch">
+                            <div class="Box pinned-item-list-item d-flex p-3 width-full public source">
+                                <div class="pinned-item-list-item-content">
+                                    <div class="d-flex width-full flex-items-center position-relative" align="center">
+                                        <a href="" class="text-bold flex-auto">
+                                            <span class="repo" title="Steven-s-Project"><h3 style="font-family:微软雅黑">用户服务</h3></span>
+                                        </a>
+                                    </div>
+
+                                    <div class="pinned-item-list-item-content" style="display: inline;margin-top: 10px" align="center">
+
+                                        <div style="width:99% ; float:left   ">
+
+                                            <button name="button" style="width:22% ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                                <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button><button name="button" style="width:22% ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                            <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button><button name="button" style="width:22% ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                            <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button><button name="button" style="width:22% ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                            <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button></div>
+                                    </div></div>
+                            </div>
+                        </li><li class="col-12 col-md-6 col-lg-6 mb-3 d-flex flex-content-stretch">
+                            <div class="Box pinned-item-list-item d-flex p-3 width-full public source">
+                                <div class="pinned-item-list-item-content">
+                                    <div class="d-flex width-full flex-items-center position-relative" align="center">
+                                        <a href="" class="text-bold flex-auto">
+                                            <span class="repo" title="Steven-s-Project"><h3 style="font-family:微软雅黑">日志报告</h3></span>
+                                        </a>
+                                    </div>
+
+                                    <div class="pinned-item-list-item-content" style="display: inline;margin-top: 10px" align="center">
+
+                                        <div style="width:99% ; float:left   ">
+
+                                            <button name="button" style="width:22% ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                                <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button><button name="button" style="width:22% ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                            <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button><button name="button" style="width:22% ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                            <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button><button name="button" style="width:22% ;height:55px" type="submit" class="btn btn-sm ml-2 mb-2 js-toggler-target">XXXXXXXXX<br>
+                                            <span class="d-inline-block mr-3">
+                                                     <span class="repo-language-color" style="background-color: #00db00"></span>
+                                                     <a style=" font-family:微软雅黑" href="">正常</a>
+                                            </span></button></div>
+                                    </div></div>
+                            </div>
+                        </li></ol>
                     </div>
-                    <div id="pinned-items-modal-wrapper"></div>
                 </div>
+                <div id="pinned-items-modal-wrapper"></div>
             </div>
         </div>
-    </main>
-</div>
+    </main></div>
+
+
+
+
+
+
+
+
+
 </body>
 </html>
